@@ -1,0 +1,1 @@
+{'total': 18.5, 'per_category': {'Grocery': 15, 'Toiletries': 3.5}}
