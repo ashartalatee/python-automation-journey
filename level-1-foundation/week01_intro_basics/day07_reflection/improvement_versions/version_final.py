@@ -14,9 +14,7 @@ CartItem = Dict[str, int]
 Cart = List[CartItem]
 
 
-# ------------------------------
 # Validasi Input
-# ------------------------------
 def validate_harga(harga_input: str) -> Optional[int]:
     try:
         harga = int(harga_input)
@@ -28,9 +26,7 @@ def validate_harga(harga_input: str) -> Optional[int]:
         return None
 
 
-# ------------------------------
 # Core Functions
-# ------------------------------
 def tambah_barang(cart: Cart, nama: str, harga: int) -> None:
     cart.append({"nama": nama, "harga": harga})
 
@@ -59,9 +55,7 @@ def simpan_ke_file(cart: Cart, path: str = "data.txt") -> None:
         print("[ERROR] File tidak bisa ditulis:", e)
 
 
-# ------------------------------
 # Main Program
-# ------------------------------
 def main():
     cart: Cart = []
 

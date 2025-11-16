@@ -9,7 +9,7 @@ Week 01 — Python & Logic Thinking Foundation
 
 ## 2. Analisis Menggunakan 5 Lensa Kritis
 
-### 🧩 Lensa 1 — Vectorization
+### Lensa 1 — Vectorization
 **Temuan:**
 - Beberapa loop manual dapat digantikan list comprehension.
 - Perhitungan total harga dapat lebih ringkas dengan fungsi `sum()`.
@@ -20,7 +20,7 @@ Week 01 — Python & Logic Thinking Foundation
 
 ---
 
-### 🧩 Lensa 2 — Separation of Concerns (SoC)
+### Lensa 2 — Separation of Concerns (SoC)
 **Temuan:**
 - Banyak logika bercampur di dalam `main()`.
 - Beberapa fungsi melakukan lebih dari 1 tanggung jawab.
@@ -36,7 +36,7 @@ Pisahkan menjadi fungsi kecil:
 
 ---
 
-### 🧩 Lensa 3 — Type Thinking
+### Lensa 3 — Type Thinking
 **Temuan:**
 - Tidak ada type hints.
 - Struktur data belum diberi alias atau type definition.
@@ -49,7 +49,7 @@ Pisahkan menjadi fungsi kecil:
 
 ---
 
-### 🧩 Lensa 4 — Cache
+### Lensa 4 — Cache
 **Temuan:**
 - Tidak ada caching, tetapi beberapa operasi bisa disimpan sementara.
 
@@ -58,7 +58,7 @@ Pisahkan menjadi fungsi kecil:
 
 ---
 
-### 🧩 Lensa 5 — Error Handling
+### Lensa 5 — Error Handling
 **Temuan:**
 - Input harga rawan error (string bukan angka).
 - Potensi file write error.
